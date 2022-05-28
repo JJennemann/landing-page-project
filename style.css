@@ -15,8 +15,6 @@ body{
     padding:16px 100px;
     margin:0px;
     align-items:center;
-    
-  
 }
 
 .header-logo{
@@ -24,9 +22,7 @@ body{
     color:#f9faf8;
     width:200px;
     text-align:center;
-    
-   
-}
+    }
 
 .header-links{
     display:flex;
@@ -53,7 +49,6 @@ a {
     flex-direction:column;
     gap:8px;
     width:600px;
-    
 }
 
 .hero-main{
@@ -142,6 +137,55 @@ button{
 
 .quote-cheeks{
     text-align:end;
-    width:700px;
+    width:630px;
     font-size:24px;
+}
+
+.contact{
+    background-color:white;
+    padding:80px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+
+}
+
+.contact-content{
+    display:flex;
+    background-color:#3882f6;
+    border-radius:8px;
+    color:#E5E7EB;
+    padding:24px 48px;
+    width:700px;
+    justify-content:space-between;  
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+
+}
+
+.contact-title{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.contact-text{
+    font-size:12px;
+    width:500px;
+}
+
+.contact-us{
+    border:2px solid #E5E7EB;
+    align-self:flex-end;
+}
+
+
+.copyright{
+    color:#E5E7EB;
+    text-align:center;
+    padding:24px;
+    font-size:12px;
 }
